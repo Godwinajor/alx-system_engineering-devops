@@ -1,1 +1,1 @@
-My trust is in God
+Where am I?
