@@ -1,5 +1,0 @@
-#!/bin/bash
-chmod --reference=olleh hello
-[master b69d54c] Task 10
- 1 file changed, 2 insertions(+)
- create mode 100755 0x01-shell_permissions/10-mirror_permissions
