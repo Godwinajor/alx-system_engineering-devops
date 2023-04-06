@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# Setting up server to curl port 80 with no issues
-apt-get update
-apt-get -y install curl
-rm /etc/nginx/sites-available/*
-rm /etc/nginx/sites-enabled/*~
-sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+# debugging nginx port 80
+# Solution: delete the existing ../sites-enabled/defaul,
+# and replace it with a copy of../sites-available/default. 
+# No need to create a symbolic link. 
+# NB: The flag -s functions to create a symbolic link,
+# -f deletes the existing file and replaces it
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart
