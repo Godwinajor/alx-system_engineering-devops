@@ -4,9 +4,20 @@ SysAdmin
 Security
  By: Sylvain Kalache, co-founder at Holberton School
  Weight: 1
+<<<<<<< HEAD
  Project will start Apr 17, 2023 6:00 AM, must end by Apr 18, 2023 6:00 AM
  Checker was released at Apr 17, 2023 12:00 PM
  An auto review will be launched at the deadline
+=======
+ Ongoing second chance project - started Apr 17, 2023 6:00 AM, must end by Apr 20, 2023 6:00 AM
+ An auto review will be launched at the deadline
+In a nutshell…
+Auto QA review: 0.0/7 mandatory & 0.0/2 optional
+Altogether:  0.0%
+Mandatory: 0.0%
+Optional: 0.0%
+Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
+>>>>>>> 22919c810b8c13df1406aefaa4443ab9d905abcd
 Concepts
 For this project, we expect you to look at this concept:
 
@@ -62,6 +73,10 @@ Name	Username	IP	State
 Tasks
 0. Block all incoming traffic but
 mandatory
+<<<<<<< HEAD
+=======
+Score: 0.0% (Checks completed: 0.0%)
+>>>>>>> 22919c810b8c13df1406aefaa4443ab9d905abcd
 Let’s install the ufw firewall and setup a few rules on web-01.
 
 Requirements:
@@ -77,9 +92,16 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x13-firewall
 File: 0-block_all_incoming_traffic_but
+<<<<<<< HEAD
   
 1. Port forwarding
 #advanced
+=======
+   
+1. Port forwarding
+#advanced
+Score: 0.0% (Checks completed: 0.0%)
+>>>>>>> 22919c810b8c13df1406aefaa4443ab9d905abcd
 Firewalls can not only filter requests, they can also forward them.
 
 Requirements:
@@ -147,5 +169,9 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x13-firewall
 File: 100-port_forwarding
+<<<<<<< HEAD
   
+=======
+   
+>>>>>>> 22919c810b8c13df1406aefaa4443ab9d905abcd
 Copyright © 2023 ALX, All rights reserved.

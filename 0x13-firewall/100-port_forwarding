@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 .before
+=======
+#
+# rules.before
+>>>>>>> 22919c810b8c13df1406aefaa4443ab9d905abcd
 #
 # Rules that should be run before the ufw command line added rules. Custom
 # rules should be added to one of these chains:
@@ -36,12 +41,20 @@ COMMIT
 
 # ok icmp codes for INPUT
 -A ufw-before-input -p icmp --icmp-type destination-unreachable -j ACCEPT
+<<<<<<< HEAD
+=======
+-A ufw-before-input -p icmp --icmp-type source-quench -j ACCEPT
+>>>>>>> 22919c810b8c13df1406aefaa4443ab9d905abcd
 -A ufw-before-input -p icmp --icmp-type time-exceeded -j ACCEPT
 -A ufw-before-input -p icmp --icmp-type parameter-problem -j ACCEPT
 -A ufw-before-input -p icmp --icmp-type echo-request -j ACCEPT
 
 # ok icmp code for FORWARD
 -A ufw-before-forward -p icmp --icmp-type destination-unreachable -j ACCEPT
+<<<<<<< HEAD
+=======
+-A ufw-before-forward -p icmp --icmp-type source-quench -j ACCEPT
+>>>>>>> 22919c810b8c13df1406aefaa4443ab9d905abcd
 -A ufw-before-forward -p icmp --icmp-type time-exceeded -j ACCEPT
 -A ufw-before-forward -p icmp --icmp-type parameter-problem -j ACCEPT
 -A ufw-before-forward -p icmp --icmp-type echo-request -j ACCEPT
